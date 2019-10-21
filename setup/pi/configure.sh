@@ -105,6 +105,7 @@ function check_archive_configs () {
         rclone)
             check_variable "RCLONE_DRIVE"
             check_variable "RCLONE_PATH"
+            check_variable "RCLONE_MUSIC"
             export archiveserver="8.8.8.8" # since it's a cloud hosted drive we'll just set this to google dns
             ;;
         cifs)
